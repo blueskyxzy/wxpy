@@ -18,6 +18,7 @@ from wxpy.utils.tools import handle_response, get_user_name, wrap_user_name, ens
 
 logger = logging.getLogger('wxpy')
 
+
 class Robot(object):
     """
     机器人对象，用于登陆和操作微信账号，涵盖大部分 Web 微信的功能
