@@ -28,6 +28,7 @@ class Robot(object):
             self, save_path=None, console_qr=False, qr_path=None,
             qr_callback=None, login_callback=None, logout_callback=None
     ):
+        # 在初始化时便会执行登陆操作，需要手机扫描登陆。
         """
         :param save_path:
             | 用于保存或载入登陆状态的文件路径，例如: 'wxpy.pkl'，为空则不尝试载入。
